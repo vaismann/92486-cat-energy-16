@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Vassili Artemjev](https://up.htmlacademy.ru/adaptive/16/user/92486).
-* Наставник: `Максим Фарига`.
+* Наставник: `Максим Фарига` (https://htmlacademy.ru/profile/maximfariga).
 
 ---
 
