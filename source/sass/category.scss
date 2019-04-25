@@ -1,0 +1,45 @@
+/* category.scss */
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $bg-color-secondary;
+  padding: 25px 20px 0;
+
+  &__heading {
+    margin: 0;
+    padding-top: 6px;
+    margin-bottom: 16px;
+  }
+
+  &__icon-box {
+    order: -1;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 2px;
+    background-color: $bg-color-interactive;
+    border-radius: 50%;
+  }
+
+  &__icon-img {
+    position: absolute;
+    top: -2px;
+    left: 8px;
+  }
+
+  &__decsription {
+    padding-bottom: 22px;
+    border-bottom: 1px solid $border-separator-color;
+  }
+
+  &__link {
+    padding: 5px 0  20px 0;
+    font: 400 normal 16px/1 'Oswald', 'Arial', 'Helvetica', sans-serif;
+    text-transform: uppercase;
+  }
+
+  &__link-text {
+    margin-right: 8px;
+  }
+}
