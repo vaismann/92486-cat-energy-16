@@ -1,0 +1,13 @@
+/* categories.scss */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__category {
+    margin-bottom: 20px;
+  }
+
+  &__category:last-child {
+    margin-bottom: 0;
+  }
+}

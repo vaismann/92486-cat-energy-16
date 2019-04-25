@@ -1,0 +1,7 @@
+/* main-heading.scss */
+.main-heading {
+    font: 400 normal 36px/1 'Oswald', 'Arial', 'Helvetica', sans-serif;
+  &--light {
+    color: $font-color-light;
+  }
+}

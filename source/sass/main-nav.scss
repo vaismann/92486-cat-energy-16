@@ -1,0 +1,14 @@
+/* main-nav.scss */
+
+.main-nav {
+  font: 500 normal 20px/1.5 'Oswald', 'Arial', 'Helvetica', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+
+  &__nav-item {
+    padding: 19px 0 16px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-bottom: 1px solid $border-separator-color;
+  }
+}

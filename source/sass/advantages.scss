@@ -1,0 +1,49 @@
+/* advantages.scss */
+
+.advantages {
+
+  &__heading {
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+
+  &__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-text: center;
+    margin-bottom: 20px;
+  }
+
+  &__icon-box {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    background-color: $bg-color-interactive;
+  }
+
+  &__icon-box--first {
+    background-image: url(../img/advantage-leaf@1x.png);
+    background-position: 50% 50%;
+  }
+
+  &__icon-box--second {
+    background-image: url(../img/advantage-powder@1x.png);
+    background-position: 50% 50%;
+  }
+
+  &__icon-box--third {
+    background-image: url(../img/advantage-dining@1x.png);
+    background-position: 50% 50%;
+  }
+
+  &__icon-box--fourth {
+    background-image: url(../img/advantage-clock@1x.png);
+    background-position: 50% 50%;
+  }
+
+  &__description {
+    flex-basis: 200px;
+    margin: 0;
+  }
+}
