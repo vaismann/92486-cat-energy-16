@@ -1,0 +1,32 @@
+/* page-footer.scss */
+
+.page-footer {
+  background-color: $bg-color-secondary;
+}
+
+.page-footer__content-block {
+  width: 280px;
+  padding: 20px 20px;
+  border-bottom: 1px solid $border-separator-color;
+}
+
+.page-footer__logo{
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+  padding: 20px 0 7px;
+}
+
+.page-footer__copyright-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-footer__copyright-text {
+  font-size: 16px;
+}
+
+.page-footer__copyright-icon {
+  width: 40px;
+}

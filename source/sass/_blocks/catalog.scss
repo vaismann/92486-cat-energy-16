@@ -1,0 +1,14 @@
+/* catalog.scss */
+
+.catalog {
+  width: $mobile-width;
+}
+.catalog__heading-container {
+  padding: 0 20px 10px;
+  border-bottom: 1px solid $border-separator-color;
+}
+
+.catalog__product-card-container {
+  border: 1px solid $border-separator-color;
+  border-top: none;
+}

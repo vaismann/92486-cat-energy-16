@@ -2,12 +2,13 @@
 .categories {
   display: flex;
   flex-wrap: wrap;
+}
 
-  &__category {
-    margin-bottom: 20px;
-  }
+.categories__category {
+  margin-bottom: 20px;
 
-  &__category:last-child {
+  &:last-child {
     margin-bottom: 0;
   }
 }
+

@@ -3,9 +3,9 @@
 .product-details {
   width: 140px;
   font-size: 12px;
+}
 
-  &__row {
-    display: flex;
-    justify-content: space-between;
-  }
+.product-details__row {
+  display: flex;
+  justify-content: space-between;
 }
