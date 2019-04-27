@@ -1,0 +1,10 @@
+/* page-header.scss */
+
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px 6px;
+  margin-left: -20px;
+  margin-right: -20px;
+  border-bottom: 1px solid $border-separator-color;
+}

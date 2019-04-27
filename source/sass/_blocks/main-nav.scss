@@ -1,0 +1,14 @@
+/* main-nav.scss */
+
+.main-nav {
+  font: 500 normal 20px/1.5 $font-highlight;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-nav__nav-item {
+  padding: 19px 0 16px;
+  margin-left: -20px;
+  margin-right: -20px;
+  border-bottom: 1px solid $border-separator-color;
+}
+

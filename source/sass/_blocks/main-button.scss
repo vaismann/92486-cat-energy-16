@@ -1,0 +1,22 @@
+/* main-button.scss */
+
+.main-button {
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0;
+  font: 400 normal 16px/1.25 $font-highlight;
+  color: $font-color-light;
+  background-color: $bg-color-interactive;
+
+  &--promo {
+    padding: 12px 0;
+    font-size: 14px;
+  }
+
+  &--expander {
+    background-color: $bg-color-secondary;
+    color: $font-color-primary;
+  }
+}
