@@ -1,6 +1,13 @@
 /* secondary-heading.scss */
 
 .secondary-heading {
-    font: 400 normal 24px/1.5 $font-highlight;
-    text-transform: uppercase;
+  font: 400 normal 24px/1.5 $font-highlight;
+  text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .secondary-heading {
+    font-size: 36px;
+    line-height: 1;
+  }
 }

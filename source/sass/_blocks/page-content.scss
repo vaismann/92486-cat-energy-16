@@ -1,9 +1,35 @@
 /* page-content */
 
+.page-content {
+  display: block;
+  width: $mobile-width;
+}
+
 .page-content__promo-header {
-  margin: 0 0 20px;
+  margin: 0 0 22px;
 }
 
 .page-content__catalog {
   margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .page-content {
+    width: $tablet-width;
+  }
+
+  .page-content__promo-header {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-content {
+    position: relative;
+    width: $desktop-width;
+  }
+
+  .page-content__promo-header {
+    margin: 0 0 80px;
+  }
 }

@@ -5,10 +5,53 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .main-nav__nav-item {
   padding: 19px 0 16px;
-  margin-left: -20px;
-  margin-right: -20px;
-  border-bottom: 1px solid $border-separator-color;
+  border-bottom: $border;
 }
 
+@media (min-width: $tablet-width) {
+  .main-nav {
+    flex-basis: 62%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: $font-color-primary;
+  }
+
+  .main-nav__nav-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-nav__nav-item {
+    border-bottom: none;
+    padding: 10px 0 7px;
+    margin-right: 33px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &--active {
+      border-bottom: 2px solid $bg-color-interactive;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    flex-basis: auto;
+    font-size: 20px;
+    margin-left: auto;
+
+    &--index {
+      color: $font-color-light;
+    }
+  }
+
+  .main-nav__nav-item--active--index {
+    border-bottom: 2px solid $font-color-light;
+  }
+}

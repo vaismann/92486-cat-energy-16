@@ -1,10 +1,54 @@
 /* page-header.scss */
 
+.page-header {
+  display: block;
+  width: $mobile-width;
+}
+
 .page-header__container {
   display: flex;
   justify-content: space-between;
-  padding: 15px 20px 6px;
-  margin-left: -20px;
-  margin-right: -20px;
-  border-bottom: 1px solid $border-separator-color;
+  padding: 14px 20px 8px;
+  border-bottom: $border;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 708px;
+    padding: 32px 30px;
+  }
+
+  .page-header__container {
+    flex-basis: 27%;
+    border: none;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header {
+    width: 1220px;
+    padding: 62px 110px 30px;
+
+    &--index::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: inherit;
+      display: block;
+      z-index: -1;
+      width: 50%;
+      min-height: 696px;
+      background-image: url("../img/index-background-mobile@1x.jpg");
+      background-color: #63a73a;
+      background-position: 0%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
 }

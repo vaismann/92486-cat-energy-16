@@ -1,7 +1,19 @@
 /* main-heading.scss */
 .main-heading {
-    font: 400 normal 36px/1 $font-highlight;
-  &--light {
+  font: 400 normal 36px/1 $font-highlight;
+
+  &--promo {
     color: $font-color-light;
+  }
+}
+
+
+@media (min-width: $tablet-width) {
+  .main-heading {
+    font-size: 60px;
+
+    &--promo {
+      color: $font-color-primary;
+    }
   }
 }
